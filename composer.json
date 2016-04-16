@@ -1,17 +1,17 @@
 {
-  "name": "fajardm/ScraperStore",
+  "name": "fajardm/scraperstore",
   "type": "library",
   "description": "A scraper that copies content from online store",
   "keywords": [
     "fajardm",
     "scraperstore"
   ],
-  "homepage": "https://github.com/fajardm/ScraperStore",
+  "homepage": "https://github.com/fajardm/scraperstore",
   "license": "MIT",
   "authors": [
     {
-      "name": "Fajar Dwi Mawan",
-      "email": ":fajar.dwi.mawan@gmail.com",
+      "name": "fajar dwi mawan",
+      "email": "fajar.dwi.mawan@gmail.com",
       "role": "Developer"
     }
   ],
