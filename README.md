@@ -26,6 +26,11 @@ fajardm\ScraperStore\ScraperStoreServiceProvider::class,
 
 ## Usage
 
+Import
+``` php
+use fajardm\ScraperStore\Scraper;
+```
+
 ``` php
 $scrape = new Scrapper();
 print_r($scrape->store("matahari_mall", "https://www.mataharimall.com/p-2/handphone?page=1&per_page=25&fq=brand_name:samsung"));
