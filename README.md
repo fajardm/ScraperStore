@@ -26,10 +26,12 @@ $scrape = new Scrapper();
 print_r($scrape->store("matahari_mall", "https://www.mataharimall.com/p-2/handphone?page=1&per_page=25&fq=brand_name:samsung"));
 ```
 
-Parameter :
-Matahari Mall = matahari_mall
-Bhineka = bhineka
-Elevenia = elevenia
+First parameter for store :<br/>
+Matahari Mall = matahari_mall<br/>
+Bhineka = bhineka<br/>
+Elevenia = elevenia<br/>
+
+The second parameter is url that contait list product
 
 ## Change log
 
