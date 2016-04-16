@@ -7,25 +7,29 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-**Note:** Replace ```:author_name``` ```:author_username``` ```:author_website``` ```:author_email``` ```:vendor``` ```:package_name``` ```:package_description``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line.
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+A scraper that copies content from online store.
 
 ## Install
 
 Via Composer
 
+First install [Goutte](https://github.com/FriendsOfPHP/Goutte)
+
 ``` bash
-$ composer require :vendor/:package_name
+$ composer require fajardm/ScraperStore
 ```
 
 ## Usage
 
 ``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+$scrape = new Scrapper();
+print_r($scrape->store("matahari_mall", "https://www.mataharimall.com/p-2/handphone?page=1&per_page=25&fq=brand_name:samsung"));
 ```
+
+Parameter :
+Matahari Mall = matahari_mall
+Bhineka = bhineka
+Elevenia = elevenia
 
 ## Change log
 
@@ -47,7 +51,6 @@ If you discover any security related issues, please email :author_email instead 
 
 ## Credits
 
-- [:author_name][link-author]
 - [All Contributors][link-contributors]
 
 ## License
