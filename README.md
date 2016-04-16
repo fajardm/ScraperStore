@@ -16,7 +16,12 @@ Via Composer
 First install [Goutte](https://github.com/FriendsOfPHP/Goutte)
 
 ``` bash
-$ composer require fajardm/ScraperStore
+$ composer require fajardm/scraperstore
+```
+
+Add providers
+``` php
+fajardm\ScraperStore\ScraperStoreServiceProvider::class,
 ```
 
 ## Usage
