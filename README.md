@@ -27,11 +27,11 @@ print_r($scrape->store("matahari_mall", "https://www.mataharimall.com/p-2/handph
 ```
 
 First parameter for store :<br/>
-Matahari Mall = matahari_mall<br/>
-Bhineka = bhineka<br/>
-Elevenia = elevenia<br/>
+1. Matahari Mall = matahari_mall<br/>
+2. Bhineka = bhineka<br/>
+3. Elevenia = elevenia<br/>
 
-The second parameter is url that contait list product
+The second parameter is url that contains list product
 
 ## Change log
 
